@@ -1,0 +1,86 @@
+.contact-form {
+  background-color: #212133;
+  color: #FFFFFF;
+}
+
+.contact-form_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.contact-form_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form_title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.contact-form_text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contact-form_form-section {
+  padding: 15px 10px;
+  border: 1px solid #85859B;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.contact-form_button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form_agreement {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  max-width: 50%;
+}
+
+.contact-form_button {
+  background: #3F2AFF;
+  border-radius: 20px;
+  width: 202px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.contact-form_course-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-form_course-info-title {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 100%;
+  margin-top: 0;
+  max-width: 70%;
+  margin-left: 70px;
+}
+
+.contact-form_course-info-img {
+  margin-left: 30px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(63, 42, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.burger_container {
+  display: none;
+}
+ 
+.logo-container {
+  padding-left: -24px;
+}
+
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigate-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 73px;
+}

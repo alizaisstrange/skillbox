@@ -1,0 +1,45 @@
+.teachers {
+  background-color: #212133;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #85859B;
+}
+
+.teachers_container {
+  padding-bottom: 56px;
+}
+
+.teachers_list {
+  margin-top: 0;
+}
+
+.teachers_title {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.teachers_name {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+  margin-bottom: 0px;
+}
+
+.teachers_img {
+  border-radius: 22px 22px 0px 0px;
+}
+
+.row.teachers_list {
+  --bs-gutter-x: 2rem;
+}
+
+.teachers_text {
+  margin-top: 5px;
+  max-width: 254px;
+}

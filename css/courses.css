@@ -1,0 +1,124 @@
+.courses_title {
+  color: #212133;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+  margin-top: -5px;
+  margin-bottom: 23px;
+}
+/* СЖИМАЕТСЯ ДО 750 */
+.courses_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 47%;
+  min-height: 480px;
+  background: #EDF0F9;
+  border-radius: 20px 20px 20px 20px;
+  position: absolute;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.courses_part:last-child, .courses_part:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.courses_part-info {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 200px 30px 30px 30px;
+  height: 100%;
+}
+
+.courses_part:nth-child(2n) {
+  margin-left: 30px;
+}
+
+.part1 {
+  background-image: url("../img/courses1.jpg");
+  background-position: top;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.part2 {
+  background-image: url("../img/courses2.jpg");
+  background-position: top;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.part3 {
+  background-image: url("../img/courses3.jpg");
+  background-position: top;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.part4 {
+  background-image: url("../img/courses4.jpg");
+  background-position: top;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.part-time {
+  background-image: url("../img/watch.svg");
+  background-position: top right;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.courses_button {
+  background: #3F2AFF;
+  border-radius: 20px;
+  width: 202px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.courses_part-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50%;
+  color: #212133;
+}
+
+.courses_part-text {
+  color: #666666;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.courses_time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 9px;
+  padding-right: 4px;
+}
+
+.courses_time > svg {
+  margin-right: 4px;
+}
