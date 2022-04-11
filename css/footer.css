@@ -1,15 +1,15 @@
 .footer_top {
   display: flex;
-  background-color: #2E2B44;
-  height: 80px;
   justify-content: center;
+  height: 80px;
+  background-color: #2E2B44;
 }
 
 .footer_social-linc-list {
   display: flex;
-  max-width: 187px;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  max-width: 187px;
 }
 
 .footer_bottom {

@@ -1,9 +1,9 @@
 .teachers {
-  background-color: #212133;
-  font-weight: normal;
   font-size: 16px;
+  font-weight: normal;
   line-height: 150%;
   color: #85859B;
+  background-color: #212133;
 }
 
 .teachers_container {
@@ -15,20 +15,20 @@
 }
 
 .teachers_title {
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 70%;
   margin-top: 0;
   margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 70%;
+  color: #FFFFFF;
 }
 
 .teachers_name {
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 200%;
   margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 200%;
+  color: #FFFFFF;
 }
 
 .teachers_img {
@@ -40,6 +40,6 @@
 }
 
 .teachers_text {
-  margin-top: 5px;
   max-width: 254px;
+  margin-top: 5px;
 }

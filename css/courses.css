@@ -1,26 +1,25 @@
 .courses_title {
-  color: #212133;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 100%;
   margin-top: -5px;
   margin-bottom: 23px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 100%;
+  color: #212133;
 }
 /* СЖИМАЕТСЯ ДО 750 */
 .courses_part {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 47%;
   min-height: 480px;
+  margin-bottom: 30px;
+  padding: 0;
   background: #EDF0F9;
-  border-radius: 20px 20px 20px 20px;
-  position: absolute;
-  justify-content: space-between;
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 0;
-  margin-bottom: 30px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .courses_part:last-child, .courses_part:nth-last-child(2) {
@@ -28,12 +27,12 @@
 }
 
 .courses_part-info {
-  margin-top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 200px 30px 30px 30px;
   height: 100%;
+  margin-top: 0;
+  padding: 200px 30px 30px 30px;
 }
 
 .courses_part:nth-child(2n) {
@@ -41,68 +40,74 @@
 }
 
 .part1 {
-  background-image: url("../img/courses1.jpg");
-  background-position: top;
   position: relative;
+  background-image: url("../img/courses1.jpg");
   background-repeat: no-repeat;
+  background-position: top;
   background-size: inherit;
 }
 
 .part2 {
-  background-image: url("../img/courses2.jpg");
-  background-position: top;
   position: relative;
+  background-image: url("../img/courses2.jpg");
   background-repeat: no-repeat;
+  background-position: top;
   background-size: inherit;
 }
 
 .part3 {
-  background-image: url("../img/courses3.jpg");
-  background-position: top;
   position: relative;
+  background-image: url("../img/courses3.jpg");
   background-repeat: no-repeat;
+  background-position: top;
   background-size: inherit;
 }
 
 .part4 {
-  background-image: url("../img/courses4.jpg");
-  background-position: top;
   position: relative;
+  background-image: url("../img/courses4.jpg");
   background-repeat: no-repeat;
+  background-position: top;
   background-size: inherit;
 }
 
 .part-time {
-  background-image: url("../img/watch.svg");
-  background-position: top right;
   position: relative;
+  background-image: url("../img/watch.svg");
   background-repeat: no-repeat;
+  background-position: top right;
   background-size: inherit;
 }
 
 .courses_button {
-  background: #3F2AFF;
-  border-radius: 20px;
   width: 202px;
   height: 60px;
-  font-weight: bold;
   font-size: 16px;
+  font-weight: bold;
   line-height: 19px;
   color: #FFFFFF;
+  background: #3F2AFF;
+  border-radius: 20px;
+  transition: 200ms;
+}
+
+.courses_button:hover {
+  background-color: #2f18ff;
+  transition: 200ms;
 }
 
 .courses_part-title {
-  font-weight: bold;
   font-size: 18px;
+  font-weight: bold;
   line-height: 50%;
   color: #212133;
 }
 
 .courses_part-text {
-  color: #666666;
-  font-weight: normal;
   font-size: 16px;
+  font-weight: normal;
   line-height: 150%;
+  color: #666666;
 }
 
 .courses_time {
@@ -111,12 +116,12 @@
   right: 0;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
   padding-top: 9px;
   padding-right: 4px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 
 .courses_time > svg {

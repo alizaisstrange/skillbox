@@ -5,27 +5,27 @@
 .advantages_info {
   display: flex;
   align-items: center;
-  padding: 0;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .advantages_title {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 100%;
-  color:  #2E2B44;
   max-width: 380px;
   margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 100%;
+  color:  #2E2B44;
 }
 
 .advantages_text {
-  font-weight: normal;
+  max-width: 585px;
+  margin-bottom: 0;
+  margin-left: 0;
   font-size: 16px;
+  font-weight: normal;
   line-height: 150%;
   color: #666666;
-  max-width: 585px;
-  margin-left: 0;
-  margin-bottom: 0;
 }
 
 .advantages_list-point {
@@ -39,8 +39,8 @@
 }
 
 .advantages_list-text {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 120%;
   max-width: 240px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 120%;
 }
